@@ -1,10 +1,11 @@
 import React from 'react';
+import ZipForm from './ZipForm.jsx';
 
 class App extends React.Component{
     render() {
         return (
             <div>
-                <h1>Hello World</h1>
+                <ZipForm />
             </div>
         );
     }
